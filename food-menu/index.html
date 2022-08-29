@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Restaurant Web site</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--! header section start -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="LOGO" />
+        </a>
+        <nav class="navbar">
+          <a href="#" class="active">Ana Sayfa</a>
+          <a href="#">Hakkında</a>
+          <a href="#">Menu</a>
+          <a href="#">Ürünler</a>
+          <a href="#">Yorumlar</a>
+          <a href="#">İletişim</a>
+          <a href="#">Bloglar</a>
+        </nav>
+
+        <div class="buttons">
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button>
+            <i class="fa-solid fa-basket-shopping"></i>
+          </button>
+          <button id="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+    </header>
+    <!--! header section end -->
+  </body>
+</html>
+
+<!-- Home section start-->
+<section class="home">
+<div class="content">
+  <h3>HOME DELIVERY KEBAB</h3>
+  <p>
+    If you want to taste real kebab, it is right at your door with home delivery option. Taste at your home.
+  </p>
+  <a href="#" class="btn">Order Now</a>
+</div>
+</section>
+
+<!-- Menu section start-->
+
+<section class="menu"> 
+  <h1 class="heading">OUR <span> MENU</span></h1>
+  <div class="box-container">
+    <div class="box">
+      <div class="box-head">
+        <img src="../food-menu/images/menu1.jpg" alt="menu"/>
+        <span class="menu-category">ADANA KEBAP</span>
+        <h3>Mezeleriyle Adana Menü</h3>
+        <div class="fiyat">100TL <span>120TL</span>
+        </div>
+      </div>
+      <div class="box-bottom">
+        <a href="#" class="btn">Sepete Ekle</a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="box-head">
+        <img src="../food-menu/images/menu2.jpg" alt="menu"/>
+        <span class="menu-category">ADANA DÜRÜM</span>
+        <h3>Dürüm şeklinde Adana</h3>
+        <div class="fiyat">60TL <span>70TL</span>
+        </div>
+      </div>
+      <div class="box-bottom">
+        <a href="#" class="btn">Sepete Ekle</a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="box-head">
+        <img src="../food-menu/images/menu3.jpg" alt="menu"/>
+        <span class="menu-category">CİĞER ŞİŞ</span>
+        <h3>Diyarbakır usulü Çöp Ciğer Şiş</h3>
+        <div class="fiyat">100TL <span>120TL</span>
+        </div>
+      </div>
+      <div class="box-bottom">
+        <a href="#" class="btn">Sepete Ekle</a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="box-head">
+        <img src="../food-menu/images/menu4.jpg" alt="menu"/>
+        <span class="menu-category">KANAT</span>
+        <h3>Tavuk Kanat</h3>
+        <div class="fiyat">60TL <span>80TL</span>
+        </div>
+      </div>
+      <div class="box-bottom">
+        <a href="#" class="btn">Sepete Ekle</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products section start-->
+
+<section class="products">
+  <h1 class="heading">OUR <span> PRODUCTS</span></h1>
+  <div class="box-container">
+    <div class="box">
+      <div class="box-head">
+        <span class="title">MENÜ</span>
+        <a href="#" class="name">Adana Kebab</a>
+      </div>
+      <div class="image">
+        <img src="images/menu1.jpg" alt="">
+      </div>
+      <div class="box-bottom">
+        <div class="info">
+          <b class="price">150TL</b>
+          <span class="amount">200gr/Acılı</span>
+        </div>
+        <div class="products-btn">
+          <a href="#">
+            <i class="fas fa-plus"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="box-head">
+        <span class="title">CİGER</span>
+        <a href="#" class="name">Şiş Ciğer</a>
+      </div>
+      <div class="image">
+        <img src="images/menu3.jpg" alt="">
+      </div>
+      <div class="box-bottom">
+        <div class="info">
+          <b class="price">150TL</b>
+          <span class="amount">5 Şiş/Acılı</span>
+        </div>
+        <div class="products-btn">
+          <a href="#">
+            <i class="fas fa-plus"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+   
+    <div class="box">
+      <div class="box-head">
+        <span class="title">TAVUK</span>
+        <a href="#" class="name">Tavuk Kanat</a>
+      </div>
+      <div class="image">
+        <img src="images/menu4.jpg" alt="">
+      </div>
+      <div class="box-bottom">
+        <div class="info">
+          <b class="price">100TL</b>
+          <span class="amount">150gr/Acısız</span>
+        </div>
+        <div class="products-btn">
+          <a href="#">
+            <i class="fas fa-plus"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About start-->
+<section class="about">
+  <h1 class="heading">about <span>us</span></h1>
+  <div class="row">
+    <div class="image">
+    <img src="images/about.jpg" alt="">
+  </div>
+    <div class="content">
+      <h3>How the make delicious Adana Kebab?</h3>
+      <p>gerçek adana kebabının pişirme usulü şu şekildedir; eti yarı pişkin hale getirdikten sonra
+         ekmekle üzerine bastırmak sureti ile enine doğru biraz genişletilir.</p>
+        <p> şekilde ocağa tekrardan konulduğunda etin dağılma ihtimali artacağı için sağından ve solundan birer ciğer şişi altına konularak desteklenir. 
+        bu usül,biraz daha zahmetli olduğundan adananın da çoğu yerinde kullanılmaz . 
+        bu şekilde pişiren yerlerden yemenizde fayda var. </p>
+      <p>zira diğer türlü pişirilen kebaplar buna nazaran biraz plastiğimsi bi his veriyor çiğnerken. 
+        halbuki anlattığım usülde pişen kebap ağızda pamuk gibi dağılır, yemeye doyamazsınız.</p>
+        <a href="#" class="btn">learn more</a>
+    </div>
+  </div>
+</section>
+
+<!-- Review start-->
+<section class="review">
+<h1 class="heading">customer's <span>review</span></h1>
+<div class="box-container">
+  <div class="box">
+  <img src="../food-menu/images/review.jpg" alt="review">
+  <p>yemek çok iyiydi yemek çok iyiydi yemek çok iyiydi yemek çok iyiydi yemek çok iyiydi yemek çok iyiydi
+    yemek çok iyiydi yemek çok iyiydi yemek çok iyiydi yemek çok iyiydi yemek çok iyiydi yemek çok iyiydi</p>
+    <img src="../food-menu/images/avatar1.jpg" alt="1" class="user" />
+    <h3>Melisa Can</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+</div>
+<div class="box">
+  <img src="../food-menu/images/review.jpg" alt="review">
+  <p>yemek çok kötüydü yemek çok kötüydü yemek çok kötüydü yemek çok kötüydü yemek çok kötüydü yemek çok kötüydü yemek çok kötüydü 
+    yemek çok kötüydü yemek çok kötüydü yemek çok kötüydü yemek çok kötüydü yemek çok kötüydü yemek çok kötüydü yemek çok kötüydü </p>
+    <img src="../food-menu/images/avatar2.jpg" alt="1" class="user" />
+    <h3>Mali Can</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+</div>
+<div class="box">
+  <img src="../food-menu/images/review.jpg" alt="review">
+  <p>yemek iyiydi yemek iyiydi yemek iyiydi yemek iyiydi yemek iyiydi yemek iyiydi yemek iyiydi yemek iyiydi yemek iyiydi yemek iyiydi 
+    yemek iyiydi yemek iyiydi yemek iyiydi yemek iyiydi yemek iyiydi yemek iyiydi yemek iyiydi yemek iyiydi yemek iyiydi yemek iyiydi  </p>
+    <img src="../food-menu/images/avatar3.jpg" alt="1" class="user" />
+    <h3>DT</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+</div>
+</div>
+</section>
+
+<!-- Contact start-->
+<section>
+  <div class="contact">
+    <h1 class="heading">Contact <span>Us</span></h1>
+      <div class="row">
+        <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3186.0003504980778!2d35.323785!3d37.
+        009788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15288f22b5550ad9%3A0xcf6ebb023f901b53!2s
+        Baraj%20Cad.%2C%20Seyhan%2FAdana%2C%20T%C3%BCrkiye!5e0!3m2!1str!2snl!4v1661330268395!5m2!1str!2snl" 
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form>
+          <h3>Merak ediyor musun?</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Adınız" />
+          </div>
+          <div class="inputBox">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="text" placeholder="Mailiniz" />
+          </div>
+          <div class="inputBox">
+            <i class="fa-solid fa-phone"></i>
+            <input type="text" placeholder="Telefon No" />
+          </div>
+          <input type="submit" class="btn" value="Şimdi İletişime geç">
+        </form>
+      </div>
+  </div>
+</section>
+
+<!-- Our Blogs start-->
+<section>
+  <div class="blog">
+    <h1 class="heading">Our <span>Blogs</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <div class="image">
+        <img src="../food-menu/images/blog2.jpg" alt="blog1">
+        </div>
+        <div class="content">
+          <a href="#" class="title">how to make adana kebab?</a>
+          <span>by admin / 25st august, 2022</span>
+          <p>
+            Ocakbaşında kıyma Adana kebap yapmayı öğrenmek istiyorsanız yazımızın devamını okuyun.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+        <img src="../food-menu/images/blog1.jpg" alt="blog1">
+        </div>
+        <div class="content">
+          <a href="#" class="title">The most popular appetizers of Adana kebab</a>
+          <span>by admin / 25st august, 2022</span>
+          <p>
+            En çok sevilen meze türleri.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+        <img src="../food-menu/images/blog3.jpg" alt="blog1">
+        </div>
+        <div class="content">
+          <a href="#" class="title">how to make liver shish</a>
+          <span>by admin / 25st august, 2022</span>
+          <p>
+            Diyarbakır ciğerinin meşhur ve lezzetli olma sebebi.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Footer Start-->
+<section class="footer">
+  <div class="search">
+    <input type="text"
+     class="search-input" placeholder="Ara">
+     <button class="btn btn-primary">search</button>
+    </div>
+     <div class="share">
+      <a href="#" class="fab fa-facebook"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+      <a href="#" class="fab fa-pinterest"></a>
+     </div>
+
+     <div class="links">
+          <a href="#" class="active">Ana Sayfa</a>
+          <a href="#">Hakkında</a>
+          <a href="#">Menu</a>
+          <a href="#">Ürünler</a>
+          <a href="#">Yorumlar</a>
+          <a href="#">İletişim</a>
+          <a href="#">Bloglar</a>
+     </div>
+
+     <div class="credit">
+      created by <span>
+        Mehmet Ali Küçükkaplan </span> | all rights reserved
+     </div>
+</section>
+
+<!--Responsive Start-->
